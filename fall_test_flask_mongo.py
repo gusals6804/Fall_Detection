@@ -275,7 +275,7 @@ def start_fall_detector_realtime(input_path=1, user_name=""):
             fall_time += 1
             if fall_time > FPS:
                 fall_time = 0
-            print(fall_time, (FPS * 5), 'fallen_Time')
+            print(fall_time, (FPS*4), 'fallen_Time')
 
         elif fallen == True:
 
@@ -287,8 +287,8 @@ def start_fall_detector_realtime(input_path=1, user_name=""):
                 print('fallen 저장')
 
             fallen_time += 1
-            print(fallen_time, (FPS * 5), 'fallen_Time')
-            if fallen_time > (FPS*5):
+            print(fallen_time, (FPS*4), 'fallen_Time')
+            if fallen_time > (FPS*4):
                 fallen_time = 0
 
         # -------------------------------- insert ----------------------------------
